@@ -8,7 +8,8 @@ Group:		Applications/Publishing/TeX
 Source0:	http://ebeffara.free.fr/pub/%{name}-%{version}.tar.gz
 # Source0-md5:	8087cdb498f51f91c2427c7d0b253189
 URL:		http://www.pps.jussieu.fr/~beffara/soft/rubber/
-BuildRequires:	python-modules >= 2.5
+BuildRequires:	python-modules >= 1:2.5
+BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 Requires:	tetex-latex
 BuildArch:	noarch
@@ -25,8 +26,8 @@ included, as well as usage of pdfLaTeX to produce PDF documents.
 %description -l pl
 Rubber jest programem wykonuj±cym wszystkie zadania zwi±zane z
 kompilacj± dokumentów LaTeXa. Zadania te obejmuj± kompilacjê samego
-dokumentu, oczywi¶cie tak± ilo¶æ razy ¿eby wszystkie referencje
-zosta³y zdefiniowane oraz uruchamianie BibTeXa zarz±dzaj±cego
+dokumentu, oczywi¶cie tak± liczbê razy, ¿eby wszystkie referencje
+zosta³y zdefiniowane, oraz uruchamianie BibTeXa zarz±dzaj±cego
 odno¶nikami bibliograficznymi. Dodatkowo rubber automatycznie wywo³uje
 dvips aby stworzyæ dokumenty PostScript oraz pdfLaTeX aby stworzyæ
 dokumenty PDF.
@@ -41,9 +42,8 @@ dokumenty PDF.
 	--infodir=%{_infodir}
 
 python setup.py build
-cd doc
-make all
-cd ..
+
+%{__make} -C doc all
 
 %install
 rm -rf $RPM_BUILD_ROOT
