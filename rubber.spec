@@ -1,5 +1,5 @@
 Summary:	A LaTeX wrapper for automatically building documents
-Summary(pl):	Wrapper LaTeXa dla automatycznie budowanych dokumentów
+Summary(pl.UTF-8):   Wrapper LaTeXa dla automatycznie budowanych dokumentÃ³w
 Name:		rubber
 Version:	1.1
 Release:	1
@@ -23,13 +23,13 @@ defined, and running BibTeX to manage bibliographic references.
 Automatic execution of dvips to produce PostScript documents is also
 included, as well as usage of pdfLaTeX to produce PDF documents.
 
-%description -l pl
-Rubber jest programem wykonuj±cym wszystkie zadania zwi±zane z
-kompilacj± dokumentów LaTeXa. Zadania te obejmuj± kompilacjê samego
-dokumentu, oczywi¶cie tak± liczbê razy, ¿eby wszystkie referencje
-zosta³y zdefiniowane, oraz uruchamianie BibTeXa zarz±dzaj±cego
-odno¶nikami bibliograficznymi. Dodatkowo rubber automatycznie wywo³uje
-dvips aby stworzyæ dokumenty PostScript oraz pdfLaTeX aby stworzyæ
+%description -l pl.UTF-8
+Rubber jest programem wykonujÄ…cym wszystkie zadania zwiÄ…zane z
+kompilacjÄ… dokumentÃ³w LaTeXa. Zadania te obejmujÄ… kompilacjÄ™ samego
+dokumentu, oczywiÅ›cie takÄ… liczbÄ™ razy, Å¼eby wszystkie referencje
+zostaÅ‚y zdefiniowane, oraz uruchamianie BibTeXa zarzÄ…dzajÄ…cego
+odnoÅ›nikami bibliograficznymi. Dodatkowo rubber automatycznie wywoÅ‚uje
+dvips aby stworzyÄ‡ dokumenty PostScript oraz pdfLaTeX aby stworzyÄ‡
 dokumenty PDF.
 
 %prep
