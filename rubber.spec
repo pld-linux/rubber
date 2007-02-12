@@ -1,5 +1,5 @@
 Summary:	A LaTeX wrapper for automatically building documents
-Summary(pl.UTF-8):   Wrapper LaTeXa dla automatycznie budowanych dokumentów
+Summary(pl.UTF-8):	Wrapper LaTeXa dla automatycznie budowanych dokumentów
 Name:		rubber
 Version:	1.1
 Release:	1
