@@ -2,7 +2,7 @@ Summary:	A LaTeX wrapper for automatically building documents
 Summary(pl.UTF-8):	Wrapper LaTeXa dla automatycznie budowanych dokumentów
 Name:		rubber
 Version:	1.1
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Publishing/TeX
 Source0:	http://ebeffara.free.fr/pub/%{name}-%{version}.tar.gz
